@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
             feedbackDiv.style.backgroundColor = "#d4edda";
         } else {
             feedbackDiv.innerHTML = messages.join("<br>");
-            feedbackDiv.style.color = "#d8000c";
+            feedbackDiv.style.color = "#dc3545";
             feedbackDiv.style.backgroundColor = "#ffbaba";
         }
     });
